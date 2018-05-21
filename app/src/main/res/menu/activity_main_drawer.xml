@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <!--<group android:checkableBehavior="single">-->
+    <item
+        android:id="@+id/nav_introduce"
+        android:title="介绍" />
+    <item
+        android:id="@+id/nav_observables"
+        android:title="上游：Observable" />
+    <item
+        android:id="@+id/nav_subject"
+        android:title="两用的Subject"/>
+    <item
+        android:id="@+id/nav_scheduler"
+        android:title="线程调度" />
+    <item
+        android:id="@+id/nav_operator"
+        android:title="操作符" />
+    <item
+        android:id="@+id/nav_quesion"
+        android:title="常见问题" />
+    <!--</group>-->
+</menu>

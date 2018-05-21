@@ -1,0 +1,468 @@
+<resources>
+    <string name="app_name">Learn RxKotlin2.x</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <array name="operator_name">
+        <item>Create</item>
+    </array>
+    <array name="operator_class">
+        <item>创建</item>
+        <item>转换</item>
+        <item>过滤</item>
+        <item>组合</item>
+        <item>异常</item>
+        <item>辅助</item>
+        <item>条件</item>
+        <item>聚合</item>
+        <item>异步</item>
+        <item>连接</item>
+        <item>阻塞</item>
+        <item>字符串</item>
+    </array>
+
+    <string name="operators">[
+    {
+        "name": "创建",
+        "list": [
+            {
+                "name": "Create",
+                "fname": "CreateFragment"
+            },
+            {
+                "name": "Defer",
+                "fname": "DeferFragment"
+            },
+            {
+                "name": "Empty",
+                "fname": "EmptyFragment"
+            },
+            {
+                "name": "From",
+                "fname": "FromFragment"
+            },
+            {
+                "name": "Interval",
+                "fname": "IntervalFragment"
+            },
+            {
+                "name": "Just",
+                "fname": "JustFragment"
+            },
+            {
+                "name": "Range",
+                "fname": "RangeFragment"
+            },
+            {
+                "name": "Repeat",
+                "fname": "RepeatFragment"
+            },
+            {
+                "name": "Start",
+                "fname": "StartFragment"
+            },
+            {
+                "name": "Timer",
+                "fname": "TimerFragment"
+            }
+        ]
+    },
+    {
+        "name": "转换",
+        "list": [
+            {
+                "name": "Buffer",
+                "fname": "BufferFragment"
+            },
+            {
+                "name": "FlatMap",
+                "fname": "FlatMapFragment"
+            },
+            {
+                "name": "GroupBy",
+                "fname": "GroupByFragment"
+            },
+            {
+                "name": "Map",
+                "fname": "MapFragment"
+            },
+            {
+                "name": "Scan",
+                "fname": "ScanFragment"
+            },
+            {
+                "name": "Window",
+                "fname": "WindowFragment"
+            }
+        ]
+    },
+    {
+        "name": "过滤",
+        "list": [
+            {
+                "name": "Debounce",
+                "fname": "DebounceFragment"
+            },
+            {
+                "name": "Distinct",
+                "fname": "DistinctFragment"
+            },
+            {
+                "name": "ElementAt",
+                "fname": "ElementAtFragment"
+            },
+            {
+                "name": "Filter",
+                "fname": "FilterFragment"
+            },
+            {
+                "name": "First",
+                "fname": "FirstFragment"
+            },
+            {
+                "name": "IgnoreElements",
+                "fname": "IgnoreElementsFragment"
+            },
+            {
+                "name": "Last",
+                "fname": "LastFragment"
+            },
+            {
+                "name": "Sample",
+                "fname": "SampleFragment"
+            },
+            {
+                "name": "Skip",
+                "fname": "SkipFragment"
+            },
+            {
+                "name": "SkipLast",
+                "fname": "SkipLastFragment"
+            },
+            {
+                "name": "Take",
+                "fname": "TakeFragment"
+            },
+            {
+                "name": "TakeLast",
+                "fname": "TakeLastFragment"
+            }
+        ]
+    },
+    {
+        "name": "组合",
+        "list": [
+            {
+                "name": "And-Then-When",
+                "fname": "AndFragment"
+            },
+            {
+                "name": "CombineLatest",
+                "fname": "CombineLatestFragment"
+            },
+            {
+                "name": "Join",
+                "fname": "JoinFragment"
+            },
+            {
+                "name": "Merge",
+                "fname": "MergeFragment"
+            },
+            {
+                "name": "StartWith",
+                "fname": "StartWithFragment"
+            },
+            {
+                "name": "Switch",
+                "fname": "SwitchFragment"
+            },
+            {
+                "name": "Zip",
+                "fname": "ZipFragment"
+            }
+        ]
+    },
+    {
+        "name": "异常",
+        "list": [
+            {
+                "name": "Catch",
+                "fname": "CatchFragment"
+            },
+            {
+                "name": "Retry",
+                "fname": "RetryFragment"
+            }
+        ]
+    },
+    {
+        "name": "辅助",
+        "list": [
+            {
+                "name": "Delay",
+                "fname": "DelayFragment"
+            },
+            {
+                "name": "Do",
+                "fname": "DoFragment"
+            },
+            {
+                "name": "Materialize/Dematerialize",
+                "fname": "MaterializeFragment"
+            },
+            {
+                "name": "ObserveOn",
+                "fname": "ObserveOnFragment"
+            },
+            {
+                "name": "Serialize",
+                "fname": "SerializeFragment"
+            },
+            {
+                "name": "Subscribe",
+                "fname": "SubscribeFragment"
+            },
+            {
+                "name": "SubscribeOn",
+                "fname": "SubscribeOnFragment"
+            },
+            {
+                "name": "TimeInterval",
+                "fname": "TimeIntervalFragment"
+            },
+            {
+                "name": "Timeout",
+                "fname": "TimeoutFragment"
+            },
+            {
+                "name": "Timestamp",
+                "fname": "TimestampFragment"
+            },
+            {
+                "name": "Using",
+                "fname": "UsingFragment"
+            }
+        ]
+    },
+    {
+        "name": "条件",
+        "list": [
+            {
+                "name": "All",
+                "fname": "AllFragment"
+            },
+            {
+                "name": "Amb",
+                "fname": "AmbFragment"
+            },
+            {
+                "name": "Contains",
+                "fname": "ContainsFragment"
+            },
+            {
+                "name": "DefaultIfEmpty",
+                "fname": "DefaultIfEmptyFragment"
+            },
+            {
+                "name": "SequenceEqual",
+                "fname": "SequenceEqualFragment"
+            },
+            {
+                "name": "SkipUntil",
+                "fname": "SkipUntilFragment"
+            },
+            {
+                "name": "SkipWhile",
+                "fname": "SkipWhileFragment"
+            },
+            {
+                "name": "TakeUntil",
+                "fname": "TakeUntilFragment"
+            },
+            {
+                "name": "TakeWhile ",
+                "fname": "TakeWhile Fragment"
+            }
+        ]
+    },
+    {
+        "name": "聚合",
+        "list": [
+            {
+                "name": "Average",
+                "fname": "AverageFragment"
+            },
+            {
+                "name": "Concat",
+                "fname": "ConcatFragment"
+            },
+            {
+                "name": "Count",
+                "fname": "CountFragment"
+            },
+            {
+                "name": "Max",
+                "fname": "MaxFragment"
+            },
+            {
+                "name": "Min",
+                "fname": "MinFragment"
+            },
+            {
+                "name": "Reduce",
+                "fname": "ReduceFragment"
+            },
+            {
+                "name": "Sum",
+                "fname": "SumFragment"
+            }
+        ]
+    },
+    {
+        "name": "异步",
+        "list": [
+            {
+                "name": "Start",
+                "fname": "StartFragment"
+            },
+            {
+                "name": "ToAsync/AsyncAction/asyncFunc",
+                "fname": "ToAsyncFragment"
+            },
+            {
+                "name": "StartFuture",
+                "fname": "StartFutureFragment"
+            },
+            {
+                "name": "DeferFuture",
+                "fname": "DeferFutureFragment"
+            },
+            {
+                "name": "ForEachFuture",
+                "fname": "ForEachFutureFragment"
+            },
+            {
+                "name": "FromAction",
+                "fname": "FromActionFragment"
+            },
+            {
+                "name": "FromCallable",
+                "fname": "FromCallableFragment"
+            },
+            {
+                "name": "FromRunnable",
+                "fname": "FromRunnableFragment"
+            },
+            {
+                "name": "RunAsync",
+                "fname": "RunAsyncFragment"
+            }
+        ]
+    },
+    {
+        "name": "连接",
+        "list": [
+            {
+                "name": "Connect",
+                "fname": "ConnectFragment"
+            },
+            {
+                "name": "Publish",
+                "fname": "PublishFragment"
+            },
+            {
+                "name": "RefCount",
+                "fname": "RefCountFragment"
+            },
+            {
+                "name": "Replay",
+                "fname": "ReplayFragment"
+            }
+        ]
+    },
+    {
+        "name": "阻塞",
+        "list": [
+            {
+                "name": "Create",
+                "fname": "CreateFragment"
+            },
+            {
+                "name": "Defer",
+                "fname": "DeferFragment"
+            },
+            {
+                "name": "Empty",
+                "fname": "EmptyFragment"
+            },
+            {
+                "name": "From",
+                "fname": "FromFragment"
+            },
+            {
+                "name": "Interval",
+                "fname": "IntervalFragment"
+            },
+            {
+                "name": "Just",
+                "fname": "JustFragment"
+            },
+            {
+                "name": "Range",
+                "fname": "RangeFragment"
+            },
+            {
+                "name": "Repeat",
+                "fname": "RepeatFragment"
+            },
+            {
+                "name": "Start",
+                "fname": "StartFragment"
+            },
+            {
+                "name": "Timer",
+                "fname": "TimerFragment"
+            }
+        ]
+    },
+    {
+        "name": "字符串",
+        "list": [
+            {
+                "name": "ByLine",
+                "fname": "ByLineFragment"
+            },
+            {
+                "name": "Decode",
+                "fname": "DecodeFragment"
+            },
+            {
+                "name": "Encode",
+                "fname": "EncodeFragment"
+            },
+            {
+                "name": "From",
+                "fname": "FromFragment"
+            },
+            {
+                "name": "Join",
+                "fname": "JoinFragment"
+            },
+            {
+                "name": "Splite",
+                "fname": "SpliteFragment"
+            },
+            {
+                "name": "StringConcat",
+                "fname": "StringConcatFragment"
+            }
+        ]
+    }
+]</string>
+</resources>
